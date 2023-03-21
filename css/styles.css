@@ -95,3 +95,11 @@
     margin: 0 auto;
 }
 
+@media(max-width: 480px){
+    #home-link{
+        display: none;
+    }
+    #new-link{
+        margin-right: 20px;
+    }
+}

@@ -27,9 +27,9 @@
                 <img src="<?= $BASE_URL ?>img/logo.svg" alt="Agenda">
             </a>
             <div>
-                <div class="navbar-nav">
+                <div class="navbar-nav mob-menu">
                     <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?>index.php">Agenda</a>
-                    <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?>create.php">Novo</a>
+                    <a class="nav-link active" id="new-link"  href="<?= $BASE_URL ?>create.php">Novo</a>
                 </div>
             </div>
         </nav>
